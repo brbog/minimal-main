@@ -13,6 +13,12 @@
 	<name>BB: Minimal Main -> [xxx]</name>
 	<description>A minimal project creating an executable jar.</description>
 	
+	<scm child.scm.connection.inherit.append.path="false" child.scm.developerConnection.inherit.append.path="false">
+		<connection>scm:git:file://localhost/opt/project/github/minimal-main</connection>
+		<developerConnection>scm:git:file://localhost/opt/project/github/minimal-main</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+	
 	<inceptionYear>2022</inceptionYear>
 	<licenses>
 		<license>
